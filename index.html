@@ -434,6 +434,7 @@
         <div class="footer-block">
           <p class="footer-text">подпишитесь на рассылку</p>
           <input
+            id="email"
             class="footer-input"
             type="email"
             name="email"
@@ -492,9 +493,7 @@
             <label for="text" class="label-text">Комментарий</label>
             <textarea
               name="text-input"
-              id=""
-              cols="30"
-              rows="10"
+              id="text"
               class="text-input"
               placeholder="Введите текст"
             ></textarea>
@@ -508,10 +507,10 @@
               id="privacy"
             />
             <label for="privacy" class="check-text"
-              ><p class="modal-text">
+              ><span class="modal-text">
                 Соглашаюсь с рассылкой и принимаю
                 <a href="" class="link-modal">Условия договора</a>
-              </p></label
+              </span></label
             >
           </div>
           <button type="submit" class="hero-btn modal-submit-btn">
